@@ -4,7 +4,7 @@ import main
 import time
 import queue
 from pytest import approx
-class TestCase:
+class TestClass(object):
 	def test_duration(self):
 		q1 = queue.Queue()
 		q1.put('v1.avi')
