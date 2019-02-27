@@ -5,6 +5,10 @@ dist: xenial
 git:
   depth: 25
   quiet: true
+  
+addons:
+  apt:
+    packages: ffmpeg
 
 python:
 - 3.7
